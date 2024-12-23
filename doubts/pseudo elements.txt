@@ -1,0 +1,17 @@
+A pseudo-element in CSS is a keyword added to a selector that allows you to style a specific part of an element or create a virtual element that doesn’t exist in the document tree. Pseudo-elements enable you to apply styles without modifying the HTML structure.
+
+Common Pseudo-elements:
+
+::before: Inserts content before the content of an element.
+::after: Inserts content after the content of an element.
+::first-line: Styles the first line of a block of text.
+::first-letter: Styles the first letter of a block of text.
+::placeholder: Styles the placeholder text in an input field.
+::selection: Styles the portion of text that has been selected by the user.
+
+Usage Example: (css)
+p::first-line {
+    font-weight: bold; /* Makes the first line of a paragraph bold */
+}
+
+Pseudo-elements enhance the styling capabilities of CSS by allowing specific portions of elements to be targeted without altering the HTML markup.

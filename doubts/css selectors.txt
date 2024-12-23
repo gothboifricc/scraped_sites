@@ -1,0 +1,10 @@
+CSS selectors are patterns used to select and style HTML elements. They allow you to target elements in an HTML document to apply styles or, in web scraping, to locate elements for data extraction.
+
+Key Types of CSS Selectors:
+
+Element Selector: Targets all elements of a specific type (e.g., p for all <p> tags).
+ID Selector: Targets an element with a unique id (e.g., #header for <div id="header">).
+Class Selector: Targets elements with a specific class (e.g., .button for <button class="button">).
+Attribute Selector: Selects elements with a specific attribute (e.g., [type="text"] for <input type="text">).
+Pseudo-classes: Select elements based on their state or position (e.g., :hover, :nth-child(2)).
+CSS selectors are widely used in web development and scraping to identify and manipulate specific parts of a webpage.
